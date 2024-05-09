@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrismas Gallery</title>
+    <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./gallery.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-container">
+            <div class="header__left-side">
+                <img src="./img/logo.png" alt="" width="48px" />
+            </div>
+            <nav class="header__middle-side">
+                <ul class="header__list">
+                    <li class="header-list__item">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="header-list__item"><a href="./index.html#facts">Facts</a>
+                        
+                    
+                    <li class="header-list__item">
+                        <a href="#">Gallery</a>
+                    </li>
+                    <li class="header-list__item">
+                        <a href="./index.html#gifts">Gift Ideas</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__right-side">
+                
+                <button class="header-contact"><a class="contact-href" href="#contacts">Contact me</a></button>
+            </div>
+        </div>
+    </header>
+    </audio>
+
+    <main>
+        <div class="gallery__main-container">
+            <div class="gallery__top-side">
+                    <h2 class="gallery-title">Gallery</h2>
+                    <button class="category-button" onclick="filterImages('all')">All</button>
+                    <button class="category-button" onclick="filterImages('city')">City</button>
+                    <button class="category-button" onclick="filterImages('nature')">Nature</button>
+                    <button class="category-button snow-button" onclick="snowMode()">Snowfall</button>
+
+            </div>
+            <div id="container" class="gallery__bottom-side">
+                <img src="./img/Gallery1.jpg" width="240px" height="320px" alt="" class="city photo">
+                <img src="./img/Gallery2.jpg" width="240px" height="320px" alt="" class="city photo">
+                <img src="./img/Gallery3.jpg" width="240px" height="320px" alt="" class="nature photo">
+                <img src="./img/Gallery4.jpg" width="240px" height="320px" alt="" class="nature photo">
+                <img src="./img/Gallery5.jpg" width="240px" height="320px" alt="" class="nature photo">
+                <img src="./img/Gallery6.jpg" width="240px" height="320px" alt="" class="city photo">
+                <img src="./img/Gallery7.jpg" width="240px" height="320px" alt="" class="city photo">
+                <img src="./img/Gallery8.jpg" width="240px" height="320px" alt="" class="city photo">
+                <img src="./img/Gallery9.jpg" width="240px" height="320px" alt="" class="city photo">
+                <img src="./img/Gallery10.jpg" width="240px" height="320px" alt="" class="nature photo">
+                <img src="./img/Gallery11.jpg" width="240px" height="320px" alt="" class="nature photo">
+                <img src="./img/Gallery12.jpg" width="240px" height="320px" alt="" class="nature photo">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top-side">
+                <div class="footer-top__photos">
+                    <img src="./img/logo.png" alt="" class="footer-logo" />
+                    <div class="footer-photos__text">
+                        Lorem Ipsum is typesetting industry.
+                    </div>
+                    <img src="./img/google.png" alt="" />
+                </div>
+                <div class="footer-top__links">
+                    <h4 class="footer-links__logo">Links</h4>
+                    <ul class="footer__links-list">
+                        <li><a href="./index.html#" class="footer-link__list-item" >Wishes</a></li>
+                        <li><a href="./index.html#gifts" class="footer-link__list-item" >Gifts</a></li>
+
+                        <li><a href="./index.html#audio" class="footer-link__list-item">Home</a></li>
+                        <li><a href="#" class="footer-link__list-item">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-top__contacts">
+                    <h4 class="contacts__title">Contacts</h4>
+                    <div class="contacts__text">
+                        Lorem Ipsum is typesetting industry.
+                    </div>
+                    <a class="contacts__number">+923183561921</a>
+                </div>
+                <div class="footer-top__social">
+                    <button class="footer-top__button">
+                        <img src="./img/facebook.svg" alt="" />
+                    </button>
+                    <button class="footer-top__button">
+                        <img src="./img/instagram.svg" alt="" />
+                    </button>
+                    <button class="footer-top__button">
+                        <img src="./img/twitter.svg" alt="" />
+                    </button>
+                    <button class="footer-top__button">
+                        <img src="./img/linkedin.svg" alt="" />
+                    </button>
+                </div>
+            </div>
+
+            <hr class="footer__line" />
+
+            <div class="footer__bottom">
+                <div class="footer-bottom__text">
+                    © 2023 Copyright by IK Developers. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="./gallery.js"></script>
+    
+</main>
+
+
+    
+
+</body>
+</html>
