@@ -13,7 +13,7 @@ function snowFall(){
     img.style.position = 'absolute';  
     img.style.top = '45vh';
     img.style.left = '20vw';
-    img.src='./img/santa.png'
+    img.src='/img/santa.png'
     document.body.appendChild(img);
 }
 
